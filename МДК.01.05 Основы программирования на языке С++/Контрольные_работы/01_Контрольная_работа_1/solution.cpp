@@ -50,7 +50,7 @@ std::find со строкой
 
 двумерка 5 на 8
 
-C++int arr[5][8];
+int arr[5][8];
 
 for(int i=0; i<5; i++){
     for(int j=0; j<8; j++){
@@ -67,5 +67,6 @@ for(int i=0; i<5; i++){
 
 заменить beautiful на amazing
 
-C++text.replace(text.find("beautiful"), 9, "amazing");
+text.replace(text.find("beautiful"), 9, "amazing");
 вроде все Owo
+
