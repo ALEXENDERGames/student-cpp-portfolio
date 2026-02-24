@@ -67,7 +67,7 @@ int main() {
 
 Рекурсивная функция переворота строки (без циклов)
 
-C++void reverseString(string& s, int start = 0) {
+  void reverseString(string& s, int start = 0) {
     int end = s.length() - 1 - start;
     
     if(start >= end) return;   // базовый случай
@@ -88,13 +88,13 @@ string reverseRecursive(string s) {
 
 // но в задании по ссылке поэтому первый вариант лучше
 в main можно так проверить:
-C++string word = "abcdef";
+string word = "abcdef";
 reverseString(word);
 cout << word << endl;   // должно быть fedcba
 
 Шаблонная inline-функция sumElements
 
-C++#include <vector>
+#include <vector>
 #include <array>
 
 template<typename T>
@@ -125,3 +125,4 @@ int main() {
     cout << sumElements(vec) << "\n";      // 15
     cout << sumElements(ar) << "\n";       // 12
 }
+
