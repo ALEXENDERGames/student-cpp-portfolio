@@ -1,0 +1,27 @@
+# Compiled Object files
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build
+build/
+bin/
+obj/
+
+# OS
+.DS_Store
+Thumbs.db
